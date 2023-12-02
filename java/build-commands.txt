@@ -1,0 +1,14 @@
+# compile java
+javac Program.java
+
+# run java
+java Program
+
+# create a Manifest.txt
+Main-Class: Program
+
+# make jar file
+jar cfe YourJarFile.jar Program Program.class
+
+# run jar file
+java -jar YourJarFile.jar

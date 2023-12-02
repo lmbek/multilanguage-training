@@ -1,0 +1,5 @@
+# Run
+dotnet run Program.cs
+
+# Build
+dotnet publish -c Release -r win10-x64
